@@ -5,9 +5,6 @@ document.getElementById('submit').addEventListener('click',()=>{
 	const phone = document.getElementById('phone').value;
 	const email = document.getElementById('email').value;
 
-	window.alert(`First Name: ${fname}
-Last Name: ${lname}
-Phone Number: ${phone}
-Email ID: ${email}`);
+	window.alert(`First Name: ${fname} Last Name: ${lname} Phone Number: ${phone}  Email ID: ${email}`);
 	
 })
