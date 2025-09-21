@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.getElementById('submit').addEventListener('click',()=>{
+document.getElementById('submitbtn').addEventListener('click',()=>{
 	const fname = document.getElementById('first-name').value;
 	const lname = document.getElementById('last-name').value;
 	const phone = document.getElementById('phone').value;
